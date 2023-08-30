@@ -4,7 +4,9 @@ import './Main.css'
 function Main() {
   return (
     <div className="main">
-        <h1>Main</h1>
+        <div>
+        <h1>Dashboard</h1>
+        </div>
     </div>
   )
 }
