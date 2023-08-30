@@ -1,0 +1,86 @@
+.Sidebar{
+    background-color: rgba(217, 216, 216, 0.555);
+    width: 30vh;
+    height: 100vh;
+}
+
+.logo span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex; /* Use flexbox to align items */
+    align-items: center ; /* Center items vertically */
+    padding: 1rem 1rem; /* Add some padding around the logo */
+}
+
+.logo img {
+    height: 100%; /* Make the image take up the full height of the container */
+}
+
+
+
+/* ====Menu==== */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1rem 1rem;
+}
+
+
+.menu img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.home:hover{
+    background-color: rgba(217, 216, 216, 0.555);
+    border-radius: 1rem;
+}
+.Task{
+    display: flex;
+    align-items: center;
+        gap: 0.5rem;
+
+}
+
+.Team{
+    display: flex;
+    align-items: center;
+        gap: 0.5rem;
+
+}
+.Messages{
+    display: flex;
+    align-items: center;
+        gap: 0.5rem;
+
+}
+.workhead{
+    display: flex;
+    align-items: center;
+        gap: 0.5rem;
+
+}
+.workspaces li{
+    list-style: none;
+        gap: 0.5rem;
+
+
+}
+
+.workspaces ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+}
