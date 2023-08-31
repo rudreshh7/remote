@@ -4,8 +4,13 @@ import './Main.css'
 function Main() {
   return (
     <div className="main">
-        <div>
-        <h1>Dashboard</h1>
+        <div className ="mainCard">
+          <div className="titleHeading">
+            <img src="/images/vertical.png" alt="" />
+            <span>Product Design</span>
+          </div>
+
+        
         </div>
     </div>
   )

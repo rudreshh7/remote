@@ -8,9 +8,13 @@ function App() {
     <div className="App">
       <div className="rudresh">
       <Sidebar />
+      {/* Header and Main */}
       <div>
       <Header/>
+      <div>
       <Main/>
+      </div>
+      
       </div>
       
 

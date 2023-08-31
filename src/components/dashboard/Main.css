@@ -2,4 +2,22 @@
     background-color: #F5F5F5;
     height: 91.5vh;
     width: 100%;
+    margin-top: 1rem;
+}
+.mainCard{
+    padding : 1rem;
+    margin: 1rem;
+    width: 15rem;
+    height: 10rem;
+border-radius: 0.5rem;
+    background-color: aqua;
+}
+.titleHeading{
+    display: flex;
+    align-items: center;
+}
+.titleHeading img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
 }
