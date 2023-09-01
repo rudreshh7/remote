@@ -1,17 +1,23 @@
 import React from 'react'
 import './Main.css'
 
-function Main() {
+function Main(props) {
+  const domain = ["Product design" , "Development" , "App Development ","Mobile Development"];
   return (
     <div className="main">
-        <div className ="mainCard">
+      {domain.map((item) =>{
+        return(
+          <div className="mainCard">
           <div className="titleHeading">
             <img src="/images/vertical.png" alt="" />
-            <span>Product Design</span>
+            <span>{item}</span>
           </div>
 
         
         </div>
+        )
+      })}
+      
     </div>
   )
 }
