@@ -26,3 +26,14 @@ border-radius: 0.5rem;
     height: 2rem;
     margin-right: 0.5rem;
 }
+.tasklist{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasklist span{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
