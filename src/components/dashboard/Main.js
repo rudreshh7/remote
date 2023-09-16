@@ -1,26 +1,9 @@
 import React from 'react';
 import './Main.css';
+import Navbar from "./Navbar"
 
 function Main(props) {
-  // const domainData = [
-  //   {
-  //     name: "Product design",
-  //     tasks: ["PT1", "PT2", "PT3", "PT4", "PT5"],
-  //   },
-  //   {
-  //     name: "Development",
-  //     tasks: ["DT1", "DT2", "DT3", "DT4", "DT5"],
-  //   },
-  //   {
-  //     name: "App Development",
-  //     tasks: ["ADT1", "ADT2", "ADT3", "ADT4", "ADT5"],
-  //   },
-  //   {
-  //     name: "Mobile Development",
-  //     tasks: ["MDT1", "MDT2", "MDT3", "MDT4", "MDT5"],
-  //   },
-  //   // Add more domains here
-  // ];  
+
   const domainData = [
     {
       name: "Product design",
@@ -44,7 +27,9 @@ function Main(props) {
 
   return (
     <div className="main">
+      <Navbar/>
       {/* Domain Cards  */}
+      <div className="home-card">
       {domainData.map((domain, domainIndex) => (
         <div className="mainCard" key={domain.name}>
           <div className="titleHeading">
@@ -62,6 +47,10 @@ function Main(props) {
           </div>
         </div>
       ))}
+
+      </div>
+     
+      {/* Cards */}
     </div>
   );
 }
